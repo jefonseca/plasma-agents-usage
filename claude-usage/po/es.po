@@ -1,0 +1,268 @@
+# Spanish translation for the Claude Usage Plasma widget.
+# Copyright (C) 2026 jefonseca
+# This file is distributed under the same license as the widget (MIT).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.github.jefonseca.claudeusage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-31 00:00+0000\n"
+"PO-Revision-Date: 2026-08-31 00:00+0000\n"
+"Last-Translator: jefonseca <filipok@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: contents/config/config.qml
+msgid "General"
+msgstr "General"
+
+#: contents/ui/main.qml
+msgid "Account: %1"
+msgstr "Cuenta: %1"
+
+#: contents/ui/main.qml
+msgid "Connecting…"
+msgstr "Conectando…"
+
+#: contents/ui/main.qml contents/ui/configGeneral.qml
+msgid "Session (5 hours)"
+msgstr "Sesión (5 horas)"
+
+#: contents/ui/main.qml contents/ui/configGeneral.qml
+msgid "Week (7 days)"
+msgstr "Semana (7 días)"
+
+#: contents/ui/main.qml contents/ui/configGeneral.qml
+msgid "Week · Opus"
+msgstr "Semana · Opus"
+
+#: contents/ui/main.qml contents/ui/configGeneral.qml
+msgid "Week · Sonnet"
+msgstr "Semana · Sonnet"
+
+#: contents/ui/main.qml
+msgid "resetting…"
+msgstr "reiniciando…"
+
+#: contents/ui/main.qml
+msgid "resets in %1d %2h"
+msgstr "se reinicia en %1 d %2 h"
+
+#: contents/ui/main.qml
+msgid "resets in %1h %2m"
+msgstr "se reinicia en %1 h %2 min"
+
+#: contents/ui/main.qml
+msgid "resets in %1m"
+msgstr "se reinicia en %1 min"
+
+#: contents/ui/main.qml
+msgid "No command configured to obtain the credentials."
+msgstr "No se ha configurado ningún comando para obtener las credenciales."
+
+#: contents/ui/main.qml
+msgid "The credentials command failed (exit code %1). %2"
+msgstr "El comando de credenciales falló (código de salida %1). %2"
+
+#: contents/ui/main.qml
+msgid "The command did not return valid credentials JSON."
+msgstr "El comando no devolvió un JSON de credenciales válido."
+
+#: contents/ui/main.qml
+msgid "Could not read %1"
+msgstr "No se pudo leer %1"
+
+#: contents/ui/main.qml
+msgid "The credentials file does not contain valid JSON."
+msgstr "El archivo de credenciales no contiene un JSON válido."
+
+#: contents/ui/main.qml
+msgid "No accessToken found in the obtained credentials."
+msgstr "No se encontró accessToken en las credenciales obtenidas."
+
+#: contents/ui/main.qml
+msgid ""
+"Token expired. Refresh your Claude session (open Claude Code or re-run your "
+"command) and the widget will pick it up on the next cycle."
+msgstr ""
+"El token ha caducado. Renueva tu sesión de Claude (abre Claude Code o vuelve "
+"a ejecutar tu comando) y el widget lo tomará en el siguiente ciclo."
+
+#: contents/ui/main.qml
+msgid "Could not reach the OAuth server: %1"
+msgstr "No se pudo contactar con el servidor de OAuth: %1"
+
+#: contents/ui/main.qml
+msgid "Token refresh failed (HTTP %1)"
+msgstr "Fallo al renovar el token (HTTP %1)"
+
+#: contents/ui/main.qml
+msgid "Invalid token refresh response"
+msgstr "Respuesta de renovación no válida"
+
+#: contents/ui/main.qml
+msgid ""
+"Could not write the refreshed token to %1. The widget needs write access for "
+"automatic refresh."
+msgstr ""
+"No se pudo escribir el token renovado en %1. El widget necesita permiso de "
+"escritura para la renovación automática."
+
+#: contents/ui/main.qml
+msgid "Network error while fetching usage: %1"
+msgstr "Error de red al consultar el uso: %1"
+
+#: contents/ui/main.qml
+msgid "Unauthorized (401). The token is not valid; open Claude Code to sign in."
+msgstr "No autorizado (401). El token no es válido; abre Claude Code para iniciar sesión."
+
+#: contents/ui/main.qml
+msgid "The usage server responded HTTP %1"
+msgstr "El servidor de uso respondió HTTP %1"
+
+#: contents/ui/main.qml
+msgid "Invalid usage response"
+msgstr "Respuesta de uso no válida"
+
+#: contents/ui/main.qml
+msgid "Claude Usage"
+msgstr "Uso de Claude"
+
+#: contents/ui/main.qml
+msgid "No data yet"
+msgstr "Sin datos todavía"
+
+#: contents/ui/main.qml
+msgid "5h: %1%"
+msgstr "5 h: %1 %"
+
+#: contents/ui/main.qml
+msgid "7d: %1%"
+msgstr "7 d: %1 %"
+
+#: contents/ui/main.qml
+msgid "Refresh now"
+msgstr "Actualizar ahora"
+
+#: contents/ui/main.qml
+msgid "Extra credits"
+msgstr "Créditos extra"
+
+#: contents/ui/main.qml
+msgid "Loading…"
+msgstr "Cargando…"
+
+#: contents/ui/main.qml
+msgid "Enable a metric in the widget settings"
+msgstr "Activa alguna métrica en los ajustes del widget"
+
+#: contents/ui/main.qml
+msgid "Updated at %1"
+msgstr "Actualizado a las %1"
+
+#: contents/ui/configGeneral.qml
+msgid "Title:"
+msgstr "Título:"
+
+#: contents/ui/configGeneral.qml
+msgid "Show the title"
+msgstr "Mostrar el título"
+
+#: contents/ui/configGeneral.qml
+msgid "Custom title:"
+msgstr "Título personalizado:"
+
+#: contents/ui/configGeneral.qml
+msgid "Leave empty to use the default title."
+msgstr "Déjalo vacío para usar el título por defecto."
+
+#: contents/ui/configGeneral.qml
+msgid "Credentials source:"
+msgstr "Origen de las credenciales:"
+
+#: contents/ui/configGeneral.qml
+msgid "Read from a file"
+msgstr "Leer de un archivo"
+
+#: contents/ui/configGeneral.qml
+msgid "Run a custom command"
+msgstr "Ejecutar un comando personalizado"
+
+#: contents/ui/configGeneral.qml
+msgid "File path:"
+msgstr "Ruta del archivo:"
+
+#: contents/ui/configGeneral.qml
+msgid "Empty = ~/.claude/.credentials.json. A leading ~ or $HOME is expanded."
+msgstr "Vacío = ~/.claude/.credentials.json. Se expande ~ o $HOME al principio."
+
+#: contents/ui/configGeneral.qml
+msgid "Command:"
+msgstr "Comando:"
+
+#: contents/ui/configGeneral.qml
+msgid ""
+"Runs with /bin/sh -c on every update, with your user privileges. Its standard "
+"output must be the credentials JSON (with the claudeAiOauth key). If the "
+"command fails or does not return that JSON, the widget shows a warning."
+msgstr ""
+"Se ejecuta con /bin/sh -c en cada actualización, con tus permisos de usuario. "
+"Su salida estándar debe ser el JSON de credenciales (con la clave "
+"claudeAiOauth). Si el comando falla o no devuelve ese JSON, el widget muestra "
+"un aviso."
+
+#: contents/ui/configGeneral.qml
+msgid "Update every (seconds):"
+msgstr "Actualizar cada (segundos):"
+
+#: contents/ui/configGeneral.qml
+msgid "Metrics to show:"
+msgstr "Métricas a mostrar:"
+
+#: contents/ui/configGeneral.qml
+msgid "Extra credits (if enabled)"
+msgstr "Créditos extra (si están activos)"
+
+#: contents/ui/configGeneral.qml
+msgid "Warning threshold (%):"
+msgstr "Umbral de aviso (%):"
+
+#: contents/ui/configGeneral.qml
+msgid "Critical threshold (%):"
+msgstr "Umbral crítico (%):"
+
+#: contents/ui/configGeneral.qml
+msgid "Token refresh:"
+msgstr "Renovación del token:"
+
+#: contents/ui/configGeneral.qml
+msgid "Automatically refresh the expired OAuth token"
+msgstr "Renovar automáticamente el token OAuth caducado"
+
+#: contents/ui/configGeneral.qml
+msgid ""
+"Not available with a custom command: the widget cannot rewrite an arbitrary "
+"source. With an expired token you will see a warning until you refresh your "
+"Claude session."
+msgstr ""
+"No disponible con un comando personalizado: el widget no puede reescribir un "
+"origen arbitrario. Con el token caducado verás un aviso hasta que renueves tu "
+"sesión de Claude."
+
+#: contents/ui/configGeneral.qml
+msgid ""
+"DISABLED by default. If enabled, the widget periodically sends your "
+"refresh_token to platform.claude.com and REWRITES the credentials file "
+"(atomic write, permissions 600). It can conflict with Claude Code if both "
+"refresh the token, forcing a new sign-in. Enable it only if you understand "
+"the implications."
+msgstr ""
+"DESACTIVADO por defecto. Si lo activas, el widget envía periódicamente tu "
+"refresh_token a platform.claude.com y REESCRIBE el archivo de credenciales "
+"(escritura atómica, permisos 600). Puede entrar en conflicto con Claude Code "
+"si ambos renuevan el token y forzar un nuevo inicio de sesión. Actívalo solo "
+"si comprendes las implicaciones."

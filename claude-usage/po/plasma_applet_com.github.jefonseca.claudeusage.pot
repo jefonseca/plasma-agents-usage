@@ -1,0 +1,253 @@
+# Translation template for the Claude Usage Plasma widget.
+# Copyright (C) 2026 jefonseca
+# This file is distributed under the same license as the widget (MIT).
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.github.jefonseca.claudeusage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-31 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: contents/config/config.qml
+msgid "General"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Account: %1"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Connecting…"
+msgstr ""
+
+#: contents/ui/main.qml contents/ui/configGeneral.qml
+msgid "Session (5 hours)"
+msgstr ""
+
+#: contents/ui/main.qml contents/ui/configGeneral.qml
+msgid "Week (7 days)"
+msgstr ""
+
+#: contents/ui/main.qml contents/ui/configGeneral.qml
+msgid "Week · Opus"
+msgstr ""
+
+#: contents/ui/main.qml contents/ui/configGeneral.qml
+msgid "Week · Sonnet"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "resetting…"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "resets in %1d %2h"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "resets in %1h %2m"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "resets in %1m"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "No command configured to obtain the credentials."
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "The credentials command failed (exit code %1). %2"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "The command did not return valid credentials JSON."
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Could not read %1"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "The credentials file does not contain valid JSON."
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "No accessToken found in the obtained credentials."
+msgstr ""
+
+#: contents/ui/main.qml
+msgid ""
+"Token expired. Refresh your Claude session (open Claude Code or re-run your "
+"command) and the widget will pick it up on the next cycle."
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Could not reach the OAuth server: %1"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Token refresh failed (HTTP %1)"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Invalid token refresh response"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid ""
+"Could not write the refreshed token to %1. The widget needs write access for "
+"automatic refresh."
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Network error while fetching usage: %1"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Unauthorized (401). The token is not valid; open Claude Code to sign in."
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "The usage server responded HTTP %1"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Invalid usage response"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Claude Usage"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "No data yet"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "5h: %1%"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "7d: %1%"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Refresh now"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Extra credits"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Loading…"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Enable a metric in the widget settings"
+msgstr ""
+
+#: contents/ui/main.qml
+msgid "Updated at %1"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Title:"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Show the title"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Custom title:"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Leave empty to use the default title."
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Credentials source:"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Read from a file"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Run a custom command"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "File path:"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Empty = ~/.claude/.credentials.json. A leading ~ or $HOME is expanded."
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Command:"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid ""
+"Runs with /bin/sh -c on every update, with your user privileges. Its standard "
+"output must be the credentials JSON (with the claudeAiOauth key). If the "
+"command fails or does not return that JSON, the widget shows a warning."
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Update every (seconds):"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Metrics to show:"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Extra credits (if enabled)"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Warning threshold (%):"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Critical threshold (%):"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Token refresh:"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid "Automatically refresh the expired OAuth token"
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid ""
+"Not available with a custom command: the widget cannot rewrite an arbitrary "
+"source. With an expired token you will see a warning until you refresh your "
+"Claude session."
+msgstr ""
+
+#: contents/ui/configGeneral.qml
+msgid ""
+"DISABLED by default. If enabled, the widget periodically sends your "
+"refresh_token to platform.claude.com and REWRITES the credentials file "
+"(atomic write, permissions 600). It can conflict with Claude Code if both "
+"refresh the token, forcing a new sign-in. Enable it only if you understand "
+"the implications."
+msgstr ""

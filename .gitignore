@@ -1,0 +1,8 @@
+# Local working-context file, not for version control
+AGENTS.md
+CLAUDE.md
+
+# Editor / OS cruft
+*~
+*.swp
+.DS_Store

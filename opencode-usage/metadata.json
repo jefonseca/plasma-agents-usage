@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "filipok@gmail.com",
+                "Name": "jefonseca"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Shows your OpenCode Go usage limits (5-hour, weekly and monthly) using your OpenCode API key, read from a configurable location.",
+        "Description[es]": "Muestra el consumo de límites de OpenCode Go (5 h, semanal y mensual) usando tu API key de OpenCode, leída de una ubicación configurable.",
+        "Icon": "utilities-system-monitor",
+        "Id": "com.github.jefonseca.opencodeusage",
+        "License": "MIT",
+        "Name": "OpenCode Usage",
+        "Name[es]": "Uso de OpenCode",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

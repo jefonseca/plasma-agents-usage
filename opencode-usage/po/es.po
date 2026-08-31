@@ -1,0 +1,170 @@
+# Spanish translation for the OpenCode Usage Plasma widget.
+# Copyright (C) 2026 jefonseca
+# This file is distributed under the same license as the widget (MIT).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.github.jefonseca.opencodeusage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-31 00:00+0000\n"
+"PO-Revision-Date: 2026-08-31 00:00+0000\n"
+"Last-Translator: jefonseca <filipok@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "General"
+msgstr "General"
+
+msgid "OpenCode Usage"
+msgstr "Uso de OpenCode"
+
+msgid "OpenCode Go"
+msgstr "OpenCode Go"
+
+msgid "Session (5 hours)"
+msgstr "Sesión (5 horas)"
+
+msgid "Week"
+msgstr "Semana"
+
+msgid "Month"
+msgstr "Mes"
+
+msgid "resetting…"
+msgstr "reiniciando…"
+
+msgid "resets in %1d %2h"
+msgstr "se reinicia en %1 d %2 h"
+
+msgid "resets in %1h %2m"
+msgstr "se reinicia en %1 h %2 min"
+
+msgid "resets in %1m"
+msgstr "se reinicia en %1 min"
+
+msgid "limit reached · %1"
+msgstr "límite alcanzado · %1"
+
+msgid "No API key set. Paste your OpenCode API key in the settings."
+msgstr "No hay ninguna API key. Pega tu API key de OpenCode en los ajustes."
+
+msgid "No command configured to obtain the API key."
+msgstr "No se ha configurado ningún comando para obtener la API key."
+
+msgid "The API key command failed (exit code %1). %2"
+msgstr "El comando de la API key falló (código de salida %1). %2"
+
+msgid "The command output did not contain an OpenCode API key."
+msgstr "La salida del comando no contenía una API key de OpenCode."
+
+msgid "Could not read %1"
+msgstr "No se pudo leer %1"
+
+msgid "No API key for provider \"%1\" found in %2"
+msgstr "No se encontró una API key para el proveedor \"%1\" en %2"
+
+msgid "Network error while fetching usage: %1"
+msgstr "Error de red al consultar el uso: %1"
+
+msgid "Unauthorized (401). Check your OpenCode API key."
+msgstr "No autorizado (401). Revisa tu API key de OpenCode."
+
+msgid "OpenCode Go subscription required."
+msgstr "Se requiere una suscripción a OpenCode Go."
+
+msgid "The usage server responded HTTP %1"
+msgstr "El servidor de uso respondió HTTP %1"
+
+msgid "Invalid usage response"
+msgstr "Respuesta de uso no válida"
+
+msgid "No data yet"
+msgstr "Sin datos todavía"
+
+msgid "5h: %1%"
+msgstr "5 h: %1 %"
+
+msgid "7d: %1%"
+msgstr "7 d: %1 %"
+
+msgid "30d: %1%"
+msgstr "30 d: %1 %"
+
+msgid "Refresh now"
+msgstr "Actualizar ahora"
+
+msgid "Loading…"
+msgstr "Cargando…"
+
+msgid "Enable a metric in the widget settings"
+msgstr "Activa alguna métrica en los ajustes del widget"
+
+msgid "Updated at %1"
+msgstr "Actualizado a las %1"
+
+msgid "Title:"
+msgstr "Título:"
+
+msgid "Show the title"
+msgstr "Mostrar el título"
+
+msgid "Custom title:"
+msgstr "Título personalizado:"
+
+msgid "Leave empty to use the default title."
+msgstr "Déjalo vacío para usar el título por defecto."
+
+msgid "API key source:"
+msgstr "Origen de la API key:"
+
+msgid "Read from opencode auth.json"
+msgstr "Leer del auth.json de opencode"
+
+msgid "Run a custom command"
+msgstr "Ejecutar un comando personalizado"
+
+msgid "Enter the key directly"
+msgstr "Introducir la key directamente"
+
+msgid "auth.json path:"
+msgstr "Ruta de auth.json:"
+
+msgid "Empty = $XDG_DATA_HOME/opencode/auth.json (falls back to ~/.local/share). A leading ~ or $HOME is expanded."
+msgstr "Vacío = $XDG_DATA_HOME/opencode/auth.json (si no, ~/.local/share). Se expande ~ o $HOME al principio."
+
+msgid "Command:"
+msgstr "Comando:"
+
+msgid "Runs with /bin/sh -c on every update, with your user privileges. Its output may be the auth.json contents or just the raw API key."
+msgstr "Se ejecuta con /bin/sh -c en cada actualización, con tus permisos de usuario. Su salida puede ser el contenido de auth.json o solo la API key."
+
+msgid "Provider key:"
+msgstr "Clave del proveedor:"
+
+msgid "Which entry in auth.json holds the key. If not found, the first \"type\": \"api\" entry is used."
+msgstr "Qué entrada de auth.json contiene la key. Si no se encuentra, se usa la primera entrada con \"type\": \"api\"."
+
+msgid "API key:"
+msgstr "API key:"
+
+msgid "paste your OpenCode API key"
+msgstr "pega tu API key de OpenCode"
+
+msgid "Stored in plain text in the widget configuration. Prefer reading from auth.json when possible."
+msgstr "Se guarda en texto plano en la configuración del widget. Cuando sea posible, es mejor leer de auth.json."
+
+msgid "Update every (seconds):"
+msgstr "Actualizar cada (segundos):"
+
+msgid "Metrics to show:"
+msgstr "Métricas a mostrar:"
+
+msgid "Warning threshold (%):"
+msgstr "Umbral de aviso (%):"
+
+msgid "Critical threshold (%):"
+msgstr "Umbral crítico (%):"

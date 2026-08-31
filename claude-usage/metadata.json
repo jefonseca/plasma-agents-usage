@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "filipok@gmail.com",
+                "Name": "jefonseca"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Shows your Claude account usage limits (5-hour session and weekly) by reading the credentials from a configurable location.",
+        "Description[es]": "Muestra el consumo de límites de tu cuenta de Claude (sesión de 5 h y semana) leyendo las credenciales de una ubicación configurable.",
+        "Icon": "utilities-system-monitor",
+        "Id": "com.github.jefonseca.claudeusage",
+        "License": "MIT",
+        "Name": "Claude Usage",
+        "Name[es]": "Uso de Claude",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
