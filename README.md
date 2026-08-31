@@ -39,11 +39,6 @@ Then, in Plasma: right-click the desktop -> *Add Widgets...* -> *Get New...* ->
 
 Or via CLI: `kpackagetool6 --type Plasma/Applet --install dist/<project>-1.0.0.plasmoid`.
 
-## Contributing context
-
-See [`AGENTS.md`](AGENTS.md) for the accumulated working context: environment,
-per-endpoint details, conventions, and project history.
-
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
